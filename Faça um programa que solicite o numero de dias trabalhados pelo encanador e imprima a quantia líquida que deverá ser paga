@@ -1,0 +1,7 @@
+# 40 - Uma empresa contrata um encanador a R$ 30.00 por dia. Faça um programa que solicite o numero de dias trabalhados
+# pelo encanador e imprima a quantia líquida que deverá ser paga
+# sabendo-se que são descontados 8% para o imposto de renda.
+
+d = float(input('Informe a quantidade de dias trabalhados: '))
+ql = 0.92 * (30.00 * d)
+print(f'O valor liquido à ser pago é R$ {ql}')
